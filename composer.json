@@ -1,0 +1,27 @@
+{
+    "name": "tayfuntasdemir/prayer-time-package",
+    "description": "Laravel için namaz vakitleri paketi",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tayfuntasdemir\\PrayerTimePackage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tayfuntasdemir\\PrayerTimePackage\\PrayerTimesServiceProvider"
+            ]
+        }
+    }
+}
