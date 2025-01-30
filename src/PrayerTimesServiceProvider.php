@@ -1,6 +1,6 @@
 <?php
 
-namespace PrayerTimes;
+namespace Tayfuntasdemir\PrayerTimePackage;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,11 +8,11 @@ class PrayerTimesServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        // Paket ile ilgili binding işlemleri buraya gelir
+        // Servisleri burada kaydedebilirsin.
     }
 
     public function boot()
     {
-        // Paket yüklendiğinde çalıştırılacak kodlar buraya gelir
+        // Paket ile ilgili konfigürasyonları burada yükleyebilirsin.
     }
 }

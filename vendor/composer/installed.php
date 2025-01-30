@@ -3,7 +3,7 @@
         'name' => 'tayfuntasdemir/prayer-time-package',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'f350d6b10f5dba02e0bb20f3917e556a49396d8b',
+        'reference' => '01631e7a968cd0f9e726e41ab670ae1783506603',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -490,7 +490,7 @@
         'tayfuntasdemir/prayer-time-package' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'f350d6b10f5dba02e0bb20f3917e556a49396d8b',
+            'reference' => '01631e7a968cd0f9e726e41ab670ae1783506603',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
